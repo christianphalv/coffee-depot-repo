@@ -48,7 +48,7 @@ const Navigation = ({ route, onRouteChange }) => {
                 <div className="nav-container">
     
                     <div className="nav-element-container-logo">
-                        <img className="nav-logo" src={CoffeeDepotLogo} alt="logo" />
+                        <img className="nav-logo" onClick={() => onRouteChange('home')} src={CoffeeDepotLogo} alt="logo" />
                     </div>
 
                     <div className="nav-element-container-social">
@@ -68,8 +68,8 @@ const Navigation = ({ route, onRouteChange }) => {
                 </div>
                 <div className={`nav-menu ${menuToggle}`}>
                     <a href="http://get.joe.coffee/" target="_blank" rel="noopener noreferrer" className="nav-menu-item"><h4>ORDER CURBSIDE</h4></a>
-                    <h4 className="nav-menu-item" onClick={() => onRouteChange('home')}>HOME</h4>
-                    <h4 className="nav-menu-item" onClick={() => onRouteChange('menu')}>MENU</h4>
+                    <h4 className="nav-menu-item" onClick={() => {onRouteChange('home'); toggleMenu();}}>HOME</h4>
+                    <h4 className="nav-menu-item" onClick={() => {onRouteChange('menu'); toggleMenu();}}>MENU</h4>
 
                     <div className="nav-menu-hours">
                         <h4>HOURS</h4>
@@ -86,7 +86,7 @@ const Navigation = ({ route, onRouteChange }) => {
                 <div className="nav-container">
     
                     <div className="nav-element-container-logo">
-                        <img className="nav-logo" src={CoffeeDepotLogo} alt="logo" />
+                        <img className="nav-logo" onClick={() => onRouteChange('home')} src={CoffeeDepotLogo} alt="logo" />
                     </div>
 
                     <div className="nav-element-container-social">
@@ -106,8 +106,8 @@ const Navigation = ({ route, onRouteChange }) => {
                 </div>
                 <div className={`nav-menu ${menuToggle}`}>
                     <a href="http://get.joe.coffee/" target="_blank" rel="noopener noreferrer" className="nav-menu-item"><h4>ORDER CURBSIDE</h4></a>
-                    <h4 className="nav-menu-item" onClick={() => onRouteChange('home')}>HOME</h4>
-                    <h4 className="nav-menu-item" onClick={() => onRouteChange('menu')}>MENU</h4>
+                    <h4 className="nav-menu-item" onClick={() => {onRouteChange('home'); toggleMenu();}}>HOME</h4>
+                    <h4 className="nav-menu-item" onClick={() => {onRouteChange('menu'); toggleMenu();}}>MENU</h4>
 
                     <div className="nav-menu-hours">
                         <h4>HOURS</h4>

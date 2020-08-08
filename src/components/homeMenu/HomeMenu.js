@@ -27,7 +27,7 @@ const HomeMenu = ({ onRouteChange, onMenuChange }) => {
 
                     <div className="hm-option" onClick={() => [onRouteChange('menu'), onMenuChange('drinks')]}>
                         <FadeIn position={1500} delay={0} direction="up">
-                            <img src={HMDrinksIcon} alt="Drinks" />
+                            <img className="hm-icon" src={HMDrinksIcon} alt="Drinks" />
                             <div className="hm-option-title">
                                 <img src={HMDrinksTracks} alt="Menu Tracks" />
                                 <h3>DRINKS</h3>
@@ -40,7 +40,7 @@ const HomeMenu = ({ onRouteChange, onMenuChange }) => {
         
                     <div className="hm-option" onClick={() => [onRouteChange('menu'), onMenuChange('food')]}>
                         <FadeIn position={1500} delay={0} direction="up">
-                            <img src={HMFoodIcon} alt="Eats" />
+                            <img className="hm-icon" src={HMFoodIcon} alt="Eats" />
                             <div className="hm-option-title">
                                 <img src={HMFoodTracks} alt="Menu Tracks" />
                                 <h3>EATS</h3>

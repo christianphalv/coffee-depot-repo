@@ -3,8 +3,8 @@
     flex-direction: column;
     justify-content: flex-start;
 
-    margin-top: 200px;
-    margin-bottom: 100px;
+    margin-top: 100px;
+    margin-bottom: 60px;
 }
 
 .hm-header {
@@ -49,6 +49,10 @@
     cursor: pointer;
 }
 
+.hm-icon {
+    width: 80%;
+}
+
 .hm-option-title {
     display: flex;
     flex-direction: row;
@@ -68,12 +72,12 @@
     letter-spacing: 1px;
 }
 
-.hm-option-title img {
-    
-}
-
 @media screen and (max-width: 650px) {
     .hm-options-container {
         flex-direction: column;
+    }
+
+    .hm-icon {
+        width: 30%;
     }
 }

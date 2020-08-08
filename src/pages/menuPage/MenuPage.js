@@ -72,7 +72,7 @@ const MenuPage = ({ menu, onMenuChange }) => {
 
                 </div>
 
-                <p className="mp-top-sentence">We use fresh beans from local roasters, Mocha Moment.</p>
+                <p className="mp-top-sentence">We use fresh beans from local roasters, <a href="https://www.mochamoment.com/" target="_blank" rel="noopener noreferrer">Mocha Moment</a>.</p>
 
                 { menu === 'drinks' &&
                 <div>
