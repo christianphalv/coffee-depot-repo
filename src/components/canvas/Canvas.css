@@ -1,0 +1,7 @@
+#canvas {
+    border: #333 10px solid;
+}
+
+.hidden {
+    display: none;
+}

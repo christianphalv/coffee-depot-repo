@@ -1,0 +1,231 @@
+#navigation {
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    top: 0px;
+    margin: 0;
+    padding: 0;
+
+    z-index: 3;
+
+    transition-property: background-color;
+    transition-duration: 500ms;
+    transition-timing-function: ease-in-out;
+}
+
+
+.nav-container {
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.nav-element-container-logo, .nav-element-container-social, .nav-element-container-menu {
+    width: auto;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-element-container-logo {
+    width: 25%;
+}
+
+.nav-element-container-social {
+    width: 40%;
+    justify-content: space-between;
+    margin-left: 8%;
+}
+
+.nav-element-container-menu {
+    margin-left: auto;
+    margin-right: 10%;
+}
+
+.nav-icon {
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 40px;
+    height: auto;
+
+    
+
+    transition-property: filter;
+    transition-duration: 500ms;
+    transition-timing-function: ease-in-out;
+}
+
+.nav-icon:hover {
+    cursor: pointer;
+}
+
+.nav-logo {
+    width: 100%;
+    height: auto;
+    margin-top: 100%;
+
+    transition-property: width, margin-top;
+    transition-duration: 500ms;
+    transition-timing-function: ease-in-out;
+}
+
+.nav-joe-icon {
+    display: flex;
+    flex-direction: row;
+
+    text-decoration: none;
+    color: var(--colorBlack);
+    letter-spacing: 1px;
+
+    transition-property: color;
+    transition-duration: 500ms;
+    transition-timing-function: ease-in-out;
+
+    animation-name: joe-wobble;
+    animation-duration: 10s;
+    animation-delay: 2.25s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+.solid-nav {
+    background-color: var(--colorBlack);
+
+    transition-property: background-color;
+    transition-duration: 500ms;
+    transition-timing-function: ease-in-out;
+}
+
+.solid-nav .nav-logo {
+    width: 50px;
+    height: auto;
+    margin-top: 3px;
+
+    transition-property: width, margin-top;
+    transition-duration: 500ms;
+    transition-timing-function: ease-in-out;
+}
+
+.solid-nav .nav-icon {
+    filter: invert(1);
+
+    transition-property: filter;
+    transition-duration: 500ms;
+    transition-timing-function: ease-in-out;
+}
+
+.solid-nav .nav-joe-icon {
+    color: var(--colorWhite);
+
+    transition-property: color;
+    transition-duration: 500ms;
+    transition-timing-function: ease-in-out;
+}
+
+.nav-menu {
+    position: absolute;
+    right: -300px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    
+    width: 300px;
+    height: 100vh;
+
+    background-color: var(--colorSix);
+
+    transition-property: all;
+    transition-duration: 500ms;
+    transition-timing-function: ease-in-out;
+}
+
+.nav-menu-open {
+    right: 0px;
+
+    transition-property: all;
+    transition-duration: 500ms;
+    transition-timing-function: ease-in-out;
+}
+
+.nav-menu-item {
+    padding: 60px;
+    margin: 0;
+
+    color: var(--colorThree);
+
+    text-decoration: none;
+}
+
+.nav-menu-item:hover {
+    color: var(--colorFour);
+    cursor: pointer;
+}
+
+.nav-menu-hours {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+    color: var(--colorThree);
+
+    padding: 60px;
+}
+
+.nav-menu-hours h4 {
+    padding: 0;
+    margin: 5px;
+}
+
+@media screen and (max-width: 843px) {
+    .nav-logo {
+        width: 50px;
+        height: auto;
+        margin-top: 3px;
+    }
+
+    .nav-element-container-social {
+        margin-left: 0;
+    }
+
+    .nav-element-container-social p {
+        display: none;
+    }
+
+    .nav-element-container-menu {
+        margin-right: 0px;
+    }
+}
+
+@keyframes joe-wobble {
+    0% {
+        transform: rotate(0deg) scale(1);
+    }
+
+    2.5% {
+        transform: rotate(5deg) scale(1.1);
+    }
+
+    5% {
+        transform: rotate(-5deg) scale(1.1);
+    }
+
+    7.5% {
+        transform: rotate(5deg)  scale(1.1);
+    }
+
+    10% {
+        transform: rotate(0deg)  scale(1);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+}

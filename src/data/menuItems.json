@@ -1,0 +1,83 @@
+[
+    {
+        "menu": "Fort Frappe Specials",
+        "items": [
+            {
+                "name": "Painted Turtle",
+                "description": "Dark Chocolate, Caramel, Hazelnut",
+                "options": [
+                    {
+                        "option": "Small",
+                        "price": "$2.00"
+                    },
+                    {
+                        "option": "Regular",
+                        "price": "$3.00"
+                    }
+                ]
+            },
+            {
+                "name": "Java Chip",
+                "description": "Chocolate Chip",
+                "options": [
+                    {
+                        "option": "Small",
+                        "price": "$2.00"
+                    },
+                    {
+                        "option": "Regular",
+                        "price": "$3.00"
+                    }
+                ]
+            },
+            {
+                "name": "Peppermint Patty",
+                "description": "Irish Creme & Peppermint",
+                "options": [
+                    {
+                        "option": "Small",
+                        "price": "$2.00"
+                    },
+                    {
+                        "option": "Regular",
+                        "price": "$3.00"
+                    }
+                ]
+            },
+            {
+                "name": "Buchshot",
+                "description": "Hot Chocolate Powder, Caramel, English Toffee",
+                "options": [
+                    {
+                        "option": "Small",
+                        "price": "$2.00"
+                    },
+                    {
+                        "option": "Regular",
+                        "price": "$3.00"
+                    }
+                ]
+            }
+        ]
+    },
+
+    {
+        "menu": "Tea",
+        "items": [
+            {
+                "name": "Chai Tea",
+                "description": "Hot, Iced, or Blended",
+                "options": [
+                    {
+                        "option": "Small",
+                        "price": "$2.00"
+                    },
+                    {
+                        "option": "Regular",
+                        "price": "$3.00"
+                    }
+                ]
+            }
+        ]
+    }
+]

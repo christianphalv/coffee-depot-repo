@@ -1,0 +1,54 @@
+.history {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+}
+
+.history-images {
+    display: grid;
+    grid-template-columns: 300px;
+    grid-template-rows: auto;
+    grid-column-gap: 20px;
+    grid-row-gap: 0px;
+
+    margin-right: 50px;
+}
+
+.history-grid-item-one {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.history-grid-item-two {
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.history-grid-item-three {
+    grid-column: 2;
+    grid-row: 1/ span 2;
+}
+
+.history-image {
+    width: 300px;
+    height: auto;
+}
+
+.history-text {
+    width: 40%;
+    margin-left: 50px;
+    text-align: left;
+}
+
+.history-text h3 {
+    font-size: 1.5rem;
+}
+
+.history-text p {
+    max-width: 70%;
+}

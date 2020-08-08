@@ -1,38 +1,49 @@
+:root {
+  	--colorOne: #C6CAC9;
+  	--colorTwo: #7E8486;
+  	--colorThree: #45494E;
+  	--colorFour: #D3A95E;
+  	--colorFive: #FBE168;
+  	--colorSix: #F5F5F5;
+	--colorWhite: #FFFFFF;
+	--colorBlack: #000000;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500;700&display=swap");
+
+.body {
+  	-ms-overflow-style: none;
+  	scrollbar-width: none;
+}
+
+::-webkit-scrollbar {
+  	display: none;
+}
+
 .App {
-  text-align: center;
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 500;
+	  
+	display: flex;
+	flex-direction: column;
+
+	overflow: hidden;
+	width: 100vw;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.App::-webkit-scrollbar {
+  	display: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.container {
+	max-width: 80%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.hidden {
+	display: none;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.app-top {
+	display: hidden;
 }

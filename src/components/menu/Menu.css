@@ -1,0 +1,33 @@
+.menu-container {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+
+    width: 300px;
+    margin-right: 50px;
+    margin-top: 30px;
+}
+
+.menu-container h3 {
+    color: var(--colorFour);
+    margin: 0;
+
+    letter-spacing: 1px;
+    font-size: 1.5rem;
+}
+
+.menu-items {
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+
+    margin-top: 10px;
+}
+
+.menu-tracks {
+    width: 280px;
+    height: 5px;
+}
