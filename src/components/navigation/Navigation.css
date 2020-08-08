@@ -76,6 +76,10 @@
     transition-timing-function: ease-in-out;
 }
 
+.nav-logo:hover {
+    cursor: pointer;
+}
+
 .nav-joe-icon {
     display: flex;
     flex-direction: row;
@@ -96,7 +100,7 @@
     animation-timing-function: ease-in-out;
 }
 
-.nav-joe-icon p {
+.nav-joe-icon h4 {
     margin-top: 23px;
 }
 
@@ -113,7 +117,7 @@
     height: auto;
     margin-top: 10px;
 
-    transition-property: width, margin-top;
+    transition-property: width, margin-top, margin-left;
     transition-duration: 500ms;
     transition-timing-function: ease-in-out;
 }
@@ -189,24 +193,31 @@
     margin: 5px;
 }
 
-@media screen and (max-width: 843px) {
+@media screen and (max-width: 851px) {
     .nav-logo {
         width: 50px;
         height: auto;
-        margin-top: 3px;
+        margin-top: 10px;
     }
 
     .nav-element-container-social {
         margin-left: 0;
     }
 
-    .nav-element-container-social p {
+    .nav-element-container-social h4 {
         display: none;
     }
 
     .nav-element-container-menu {
         margin-right: 0px;
     }
+}
+
+@media screen and (max-width: 345px) {
+    .nav-container {
+        width: 100%;
+    }
+
 }
 
 @keyframes joe-wobble {

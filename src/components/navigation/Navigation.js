@@ -56,7 +56,7 @@ const Navigation = ({ route, onRouteChange }) => {
                         <a href="https://www.instagram.com/coffeedepotedge" target="_blank" rel="noopener noreferrer"><img className="nav-icon" src={instagramLogo} alt="instagram" /></a>
                         
                         <a href="http://get.joe.coffee/" target="_blank" rel="noopener noreferrer" className="nav-joe-icon">
-                            <img className="nav-icon" src={joeLogo} alt="joe" /><p>order curbside</p>
+                            <img className="nav-icon" src={joeLogo} alt="joe" /><h4>order curbside</h4>
                         </a>
                     </div>
 
@@ -94,7 +94,7 @@ const Navigation = ({ route, onRouteChange }) => {
                         <a href="https://www.instagram.com/coffeedepotedge" target="_blank" rel="noopener noreferrer"><img className="nav-icon" src={instagramLogo} alt="instagram" /></a>
                         
                         <a href="http://get.joe.coffee/" target="_blank" rel="noopener noreferrer" className="nav-joe-icon">
-                            <img className="nav-icon" src={joeLogo} alt="joe" /><p>order curbside</p>
+                            <img className="nav-icon" src={joeLogo} alt="joe" /><h4>order curbside</h4>
                         </a>
                     </div>
 

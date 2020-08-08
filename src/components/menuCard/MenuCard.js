@@ -8,7 +8,7 @@ const MenuCard = ({ name, options }) => {
         
         return (
             <div className="mc-option" key={i}>
-                <h5>{options[i].option}</h5>
+                <p>{options[i].option}</p>
             </div>
         );
     })

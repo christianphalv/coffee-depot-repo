@@ -58,7 +58,7 @@ export const DrinkMenus = [
                         option: "Hot | Iced | Blended"
                     },
                     {
-                        option: "* Chocolate | Caramel | Mint | Hazelnut | Vanilla | Coconut | French Vanilla | Mango"
+                        option: "* Chocolate | Caramel | Mint | Hazelnut | Vanilla | Coconut | French Vanilla | Mango | Maple | Honey"
                     },
                     {
                         option: "Coming Soon... Lavender"

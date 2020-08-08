@@ -24,11 +24,12 @@
     color: var(--colorThree);
 }
 
-.mc-container h5 {
+.mc-container p {
     position: relative;
 
     padding: 0;
     margin: 0;
+    font-size: 0.9rem;
 
     color: var(--colorTwo);
 }
