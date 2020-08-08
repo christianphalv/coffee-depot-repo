@@ -20,6 +20,7 @@ import HeroTracks from '../../images/icons/hero-tracks-gold.png';
 const Hero = () => {
     return (
         <div id="hero">
+            <p>Hello</p>
             <div className="jumbotron">
                 <div className="hero-message-container">
                     <SlideIn position={"onload"} delay={500} direction="left">
