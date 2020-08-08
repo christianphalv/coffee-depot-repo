@@ -30,7 +30,7 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
 }
 
 .nav-element-container-logo {
@@ -49,7 +49,7 @@
 }
 
 .nav-icon {
-    margin-top: 10px;
+    margin-top: 15px;
     margin-left: 10px;
     margin-right: 10px;
     width: 40px;
@@ -69,7 +69,7 @@
 .nav-logo {
     width: 100%;
     height: auto;
-    margin-top: 100%;
+    margin-top: 20%;
 
     transition-property: width, margin-top;
     transition-duration: 500ms;
@@ -79,6 +79,7 @@
 .nav-joe-icon {
     display: flex;
     flex-direction: row;
+    align-items: flex-start;
 
     text-decoration: none;
     color: var(--colorBlack);
@@ -95,6 +96,10 @@
     animation-timing-function: ease-in-out;
 }
 
+.nav-joe-icon p {
+    margin-top: 23px;
+}
+
 .solid-nav {
     background-color: var(--colorBlack);
 
@@ -106,7 +111,7 @@
 .solid-nav .nav-logo {
     width: 50px;
     height: auto;
-    margin-top: 3px;
+    margin-top: 10px;
 
     transition-property: width, margin-top;
     transition-duration: 500ms;

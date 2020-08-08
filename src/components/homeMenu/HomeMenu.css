@@ -41,6 +41,7 @@
 .hm-option {
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
 
     margin-top: 40px;
     margin-left: 8%;
@@ -75,6 +76,10 @@
 @media screen and (max-width: 650px) {
     .hm-options-container {
         flex-direction: column;
+    }
+
+    .hm-option {
+        align-items: center;
     }
 
     .hm-icon {
