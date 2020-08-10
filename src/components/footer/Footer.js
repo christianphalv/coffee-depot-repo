@@ -12,7 +12,7 @@ const Footer = ({ route }) => {
     if (route === 'home') {
         return (
             <footer id="footer">
-                 <SlideIn position={2000} delay={250} direction="left"><img className="footer-full-tracks" src={fullTracks} alt="tracks" /></SlideIn>
+                 <SlideIn position={1700} delay={250} direction="left"><img className="footer-full-tracks" src={fullTracks} alt="tracks" /></SlideIn>
     
                 <div className="footer-content-container">
                     <div className="footer-content">
