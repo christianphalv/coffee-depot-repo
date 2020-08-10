@@ -8,12 +8,12 @@
     height: 100%;
     width: 100%;
   
-
     background-image: url(../../images/photos/hero-depot-bw-1366x768.jpg);
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+
 }
 
 .hero-message-container {

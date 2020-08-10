@@ -42,13 +42,17 @@ const Navigation = ({ route, onRouteChange }) => {
         }
     }
 
+    const menuClose = () => {
+        setMenuToggle(null);
+    }
+
     if (route === "home") {
         return (
             <nav id="navigation" ref={navEl}>
                 <div className="nav-container">
     
                     <div className="nav-element-container-logo">
-                        <img className="nav-logo" onClick={() => onRouteChange('home')} src={CoffeeDepotLogo} alt="logo" />
+                        <img className="nav-logo" onClick={() => {onRouteChange('home'); menuClose();}} src={CoffeeDepotLogo} alt="logo" />
                     </div>
 
                     <div className="nav-element-container-social">
@@ -86,7 +90,7 @@ const Navigation = ({ route, onRouteChange }) => {
                 <div className="nav-container">
     
                     <div className="nav-element-container-logo">
-                        <img className="nav-logo" onClick={() => onRouteChange('home')} src={CoffeeDepotLogo} alt="logo" />
+                        <img className="nav-logo" onClick={() => {onRouteChange('home'); menuClose();}} src={CoffeeDepotLogo} alt="logo" />
                     </div>
 
                     <div className="nav-element-container-social">
