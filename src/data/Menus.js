@@ -58,10 +58,7 @@ export const DrinkMenus = [
                         option: "Hot | Iced | Blended"
                     },
                     {
-                        option: "* Chocolate | Caramel | Mint | Hazelnut | Vanilla | Coconut | French Vanilla | Mango | Maple | Honey"
-                    },
-                    {
-                        option: "Coming Soon... Lavender"
+                        option: "* Chocolate | Caramel | Mint | Hazelnut | Vanilla | Coconut | French Vanilla | Mango | Maple | Honey | Salted Caramel | Lavender"
                     }
                 ]
             },
@@ -94,7 +91,26 @@ export const DrinkMenus = [
                 options: [
 
                 ]
-            }
+            },
+            {
+                name: "Americano | 16oz",
+                options: [
+
+                ]
+            },
+            {
+                name: "Café au Lait | 16oz",
+                options: [
+
+                ]
+            },
+            {
+                name: "Pumpkin Spice Latte | 16oz",
+                options: [
+
+                ]
+            },
+            
 
         ]
     },
@@ -236,7 +252,7 @@ export const DrinkMenus = [
                 name: "Traditional with OJ",
                 options: [
                     {
-                        option: "Blueberry-Banana"
+                        option: "Blueberry"
                     },
                     {
                         option: "Strawberry"
@@ -250,7 +266,7 @@ export const DrinkMenus = [
                 name: "Creamy with Milk",
                 options: [
                     {
-                        option: "Blueberry-Banana"
+                        option: "Blueberry"
                     },
                     {
                         option: "Strawberry"
@@ -260,6 +276,9 @@ export const DrinkMenus = [
                     },
                     {
                         option: "* More combinations to come!"
+                    },
+                    {
+                        option: "* All smoothies include banana and vanilla yogurt."
                     }
                 ]
             }
@@ -312,7 +331,7 @@ export const FoodMenus = [
                 name: "Cookies",
                 options: [
                     {
-                        option: "Chocolate Chip | Oatmeal Raisin"
+                        option: "Chocolate Chip | Oatmeal Raisin | Chocolate Candy"
                     }
                 ]
             },
