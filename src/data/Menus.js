@@ -354,14 +354,59 @@ export const FoodMenus = [
         ]
     },
     {
+        menu: "Sandwiches",
+        items: [
+            {
+                name: "Railroad Reggie",
+                options: [
+                    {
+                        option: "Turkey, roasted red peppers, provolone, spinach, chipotle aioli sauce, served on sourdough bread.",
+                    }
+                ]
+            },
+            {
+                name: "Portabella Portman",
+                options: [
+                    {
+                        option: "Portabella mushrooms, roasted red peppers, provolone, spinach, cilantro lime aioli sauce, served on sourdough bread.",
+                    }
+                ]
+            },
+            {
+                name: "Chazzy Cheddar",
+                options: [
+                    {
+                        option: "Toasted cheddar cheese.",
+                    },
+                    {
+                        option: "",
+                    }
+                ]
+            }
+        ]
+    },
+    {
         menu: "Other Items",
         items: [
+            {
+                name: "Soup of the Week",
+                options: [
+                    {
+                        option: "Call or check on Facebook!"
+                    }
+                ]
+            },
             {
                 name: "Fruit Cup",
                 options: [
                     {
                         option: "Cantaloupe, Grapes, Kiwi & Strawberries"
                     }
+                ]
+            },
+            {
+                name: "Kettle Chips",
+                options: [
                 ]
             },
         ]
