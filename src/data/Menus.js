@@ -221,7 +221,7 @@ export const DrinkMenus = [
                 name: "Herbal",
                 options: [
                     {
-                        option: "Chamomile"
+                        option: "Turmeric"
                     },
                     {
                         option: "Peppermint"
@@ -400,7 +400,7 @@ export const FoodMenus = [
                 name: "Fruit Cup",
                 options: [
                     {
-                        option: "Cantaloupe, Grapes, Kiwi & Strawberries"
+                        option: "Seasonal Fruit"
                     }
                 ]
             },
