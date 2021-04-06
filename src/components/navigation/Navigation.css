@@ -156,6 +156,10 @@
     transition-timing-function: ease-in-out;
 }
 
+.nav-menu a {
+    text-decoration: none;
+}
+
 .nav-menu-open {
     right: 0px;
 

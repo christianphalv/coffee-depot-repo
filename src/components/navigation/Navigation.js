@@ -71,7 +71,7 @@ const Navigation = ({ route, onRouteChange }) => {
 
                 </div>
                 <div className={`nav-menu ${menuToggle}`}>
-                    <a href="http://get.joe.coffee/" target="_blank" rel="noopener noreferrer" className="nav-menu-item"><h4>ORDER CURBSIDE</h4></a>
+                    <a href="http://get.joe.coffee/" target="_blank" rel="noopener noreferrer"><h4 className="nav-menu-item" >ORDER CURBSIDE</h4></a>
                     <h4 className="nav-menu-item" onClick={() => {onRouteChange('home'); toggleMenu();}}>HOME</h4>
                     <h4 className="nav-menu-item" onClick={() => {onRouteChange('menu'); toggleMenu();}}>MENU</h4>
 
@@ -111,7 +111,7 @@ const Navigation = ({ route, onRouteChange }) => {
 
                 </div>
                 <div className={`nav-menu ${menuToggle}`}>
-                    <a href="http://get.joe.coffee/" target="_blank" rel="noopener noreferrer" className="nav-menu-item"><h4>ORDER CURBSIDE</h4></a>
+                    <a href="http://get.joe.coffee/" target="_blank" rel="noopener noreferrer" ><h4 className="nav-menu-item" >ORDER CURBSIDE</h4></a>
                     <h4 className="nav-menu-item" onClick={() => {onRouteChange('home'); toggleMenu();}}>HOME</h4>
                     <h4 className="nav-menu-item" onClick={() => {onRouteChange('menu'); toggleMenu();}}>MENU</h4>
 

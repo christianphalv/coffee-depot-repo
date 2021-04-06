@@ -14,6 +14,10 @@
     margin-top: 20px;
 }
 
+.footer-content {
+    min-width: 285px;
+}
+
 .footer-content img{
     width: 120px;
     height: auto;
@@ -53,7 +57,7 @@
     height: 20px;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 850px) {
 
     #footer {
         height: 400px;
