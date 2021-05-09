@@ -78,7 +78,7 @@ const Navigation = ({ route, onRouteChange }) => {
                     <div className="nav-menu-hours">
                         <h4>HOURS</h4>
                         <h4>Mon-Fri</h4>
-                        <h4>5:30 am - 4:30 pm</h4>
+                        <h4>6:00 am - 4:00 pm</h4>
                         <h4>Sat</h4>
                         <h4>7:00 am - 3:00 pm</h4>
                     </div>
@@ -118,7 +118,7 @@ const Navigation = ({ route, onRouteChange }) => {
                     <div className="nav-menu-hours">
                         <h4>HOURS</h4>
                         <h4>Mon-Fri</h4>
-                        <h4>5:30 am - 4:30 pm</h4>
+                        <h4>6:00 am - 4:00 pm</h4>
                         <h4>Sat</h4>
                         <h4>7:00 am - 3:00 pm</h4>
                     </div>

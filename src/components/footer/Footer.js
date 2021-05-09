@@ -17,7 +17,7 @@ const Footer = ({ route }) => {
                 <div className="footer-content-container">
                     <div className="footer-content">
                         <h5>HOURS</h5>
-                        <h5>Mon-Fri : 5:30 am - 4:30 pm</h5>
+                        <h5>Mon-Fri : 6:00 am - 4:00 pm</h5>
                         <h5>Sat : 7:00 am - 3:00 pm</h5>
                     </div>
     
@@ -41,7 +41,7 @@ const Footer = ({ route }) => {
                 <div className="footer-content-container">
                     <div className="footer-content">
                         <h5>HOURS</h5>
-                        <h5>Mon-Fri : 5:30 am - 4:30 pm</h5>
+                        <h5>Mon-Fri : 6:00 am - 4:00 pm</h5>
                         <h5>Sat : 7:00 am - 3:00 pm</h5>
                     </div>
     
